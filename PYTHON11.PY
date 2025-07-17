@@ -1,4 +1,5 @@
-a=input("enter your name:")
-b=int(input("enter your date of birth"))
-print("name:",a)
-print("age:",2025-b)
+name=(input("enter your name:"))
+year=int(input("enter your year of birth:"))
+current_year=int(input("enter the current year :"))
+current_age=current_year-year
+print("hello",name,"your age is",current_age)
